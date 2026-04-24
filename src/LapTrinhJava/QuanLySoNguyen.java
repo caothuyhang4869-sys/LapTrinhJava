@@ -101,7 +101,7 @@ public class QuanLySoNguyen
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
 
-        // 👉 NHẬP BAN ĐẦU
+        // NHẬP BAN ĐẦU
         nhapDanhSach(list, sc);
 
         int choice;
