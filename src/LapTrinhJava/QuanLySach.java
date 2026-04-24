@@ -117,7 +117,7 @@ public class QuanLySach
                     System.out.print("Nhập tên sách: ");
                     String ten = sc.nextLine();
                     them(map, ma, ten);
-                    xuat(map); // 🔥 in sau khi thêm
+                    xuat(map); // in sau khi thêm
                     break;
 
                 case 2:
@@ -131,14 +131,14 @@ public class QuanLySach
                     System.out.print("Tên mới: ");
                     String tenMoi = sc.nextLine();
                     sua(map, maSua, tenMoi);
-                    xuat(map); // 🔥
+                    xuat(map); 
                     break;
 
                 case 4:
                     System.out.print("Nhập mã cần xóa: ");
                     int maXoa = sc.nextInt();
                     xoa(map, maXoa);
-                    xuat(map); // 🔥
+                    xuat(map); 
                     break;
 
                 case 5:
